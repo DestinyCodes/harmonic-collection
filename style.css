@@ -1,12 +1,44 @@
-p {color: rgb(199, 161, 161); font-family:'Futura', sans-serif;}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video
+{margin:10;padding:10;border:10;outline:0;font-size:100%;vertical-align:baseline;background: #ff0000}
+body{line-height:1}
+h1{font-size: 25px;}h2{font-size: 21px;}h3{font-size: 18px;}h4{font-size: 16px;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:}
+ins{background-color:rgb(223, 223, 30);color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border: spacing 10px;}
+hr{display:block;height: 10px;border:0;border-top:1px solid #ccc;margin:2em 0;padding:0}
+input,select{vertical-align:middle}
 
-body {background-color: rgb(185, 14, 14);}
-footer { background-color: rgb(8, 3, 3);}
-*{color: rgb(206, 121, 52);}
 
-body {
-	font-family: sans-serif;
-	padding: 500px;
+
+.grid-item { width: 300px; }
+.grid-item-double { width: 100px; }
+.grid {
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 1px solid transparent);
 }
+.grid-item {
+    min-height: 100px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.grid-item:nth-child(1)	{	background: #ffffffdc;	height: 200px;	}
+.grid-item:nth-child(2)	{	background: #ffffffc0;	height: 150px;	}
+.grid-item:nth-child(3)	{	background: #ffffff81;	height: 110px;	}
+.grid-item:nth-child(4)	{	background: #ffffff60;	height: 320px;	}
+.grid-item:nth-child(5)	{	background: #ffffff31;	height: 160px;	}
 
-p { padding: 20px 20px 40px 80px; }
+
+
+
