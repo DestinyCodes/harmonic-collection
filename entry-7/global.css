@@ -1,0 +1,25 @@
+:root {
+  /* fonts */
+  --font-jetbrains-mono: "JetBrains Mono";
+
+  /* font sizes */
+  --font-size-2xs: 9px;
+  --font-size-xs: 10px;
+  --font-size-sm: 12px;
+  --font-size-base: 16px;
+  --font-size-lg: 22px;
+
+  /* Colors */
+  --color-gray-100: #cbcbcb;
+  --color-gray-200: #1d1d4d;
+  --color-gray-300: #1d1d4c;
+  --color-white: #fff;
+  --color-blue-100: #001aff;
+  --color-blue-200: #0019ff;
+  --color-fuchsia-100: #ff09f6;
+  --color-fuchsia-200: #ff08dc;
+
+  /* border radiuses */
+  --br-sm: 15px;
+  --br-md: 26px;
+}
